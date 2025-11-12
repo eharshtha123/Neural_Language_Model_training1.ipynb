@@ -14,7 +14,7 @@ The following project represents the implementation of a neural language model (
 5. Designed and trained an LSTM-based language model to predict the next word.
 6. Trained three versions:
 - Underfitting (small model, fewer epochs)
-Best fit (Balanced model)
+- Best fit (Balanced model)
 - Overfit (big model, more epochs)
 7. Calculated validation loss and perplexity for comparison.
 Results Summary
@@ -32,4 +32,4 @@ This medium-sized model, with 128, 256, 2 layers, and 3 epochs, had the best bal
 - Successfully trained an LSTM language model from scratch.
 - Exhibited underfitting, overfitting, and optimal fitting behavior.
 - Models were evaluated using the metrics of validation loss and perplexity.
-+ Developed in Google Colab using PyTorch 2.8.0
+### Developed in Google Colab using PyTorch 2.8.0
