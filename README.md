@@ -1,10 +1,12 @@
 # Neural_Language_Model_training1.ipynb
 Neural Language Model using PyTorch
 
-Overview
+## Overview
 
 The following project represents the implementation of a neural language model (LSTM) that has been trained on text data from *Pride and Prejudice* by Jane Austen using PyTorch. The goal was to implement the model from scratch, train it, and study how different model configurations (underfit, best fit, overfit) affect performance.
+
 ## Steps Done
+
 1. Installed and verified the PyTorch environment, checked GPU availability.
 2. Loaded the text dataset and cleaned it (.txt file).
 3. Tokenized words, built the vocabulary, and transformed data into numeric sequences.
@@ -13,7 +15,6 @@ The following project represents the implementation of a neural language model (
 6. Trained three versions:
 - Underfitting (small model, fewer epochs)
 Best fit (Balanced model)
-
 - Overfit (big model, more epochs)
 7. Calculated validation loss and perplexity for comparison.
 Results Summary
@@ -26,6 +27,9 @@ Results Summary
 
 This medium-sized model, with 128, 256, 2 layers, and 3 epochs, had the best balance between learning and generalization.
 
-Outcome
+## Outcome
 
-- Successfully trained an LSTM language model from scratch. - Exhibited underfitting, overfitting, and optimal fitting behavior. Models were evaluated using the metrics of validation loss and perplexity. --- Developed in Google Colab using PyTorch 2.8.0
+- Successfully trained an LSTM language model from scratch.
+- Exhibited underfitting, overfitting, and optimal fitting behavior.
+- Models were evaluated using the metrics of validation loss and perplexity.
++ Developed in Google Colab using PyTorch 2.8.0
