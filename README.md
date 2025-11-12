@@ -17,12 +17,11 @@ Best fit (Balanced model)
 - Overfit (big model, more epochs)
 7. Calculated validation loss and perplexity for comparison.
 Results Summary
-| Model Type | Embedding | Hidden | Layers | Epochs | Val Loss | Perplexity |
-|-------------|------------|---------|---------|---------|-----------|-------------|
-| Underfit | 64 | 64 | 1 | 1 | 4.55 | 94.56 |
-| Best Fit | 128 | 256 | 2 | 3 | **0.99** | **2.69** |
-| Overfit | 512 | 512 | 3 | 8 | 0.32 | 1.37 |
-
+| Model Type     | Embedding | Hidden | Layers | Epochs | Val Loss | Perplexity |
+| -------------- | --------- | ------ | ------ | ------ | -------- | ---------- |
+| ⚠️ Underfit    | 64        | 64     | 1      | 1      | 4.55     | 94.56      |
+| ✅ **Best Fit** | 128       | 256    | 2      | 3      | **0.99** | **2.69**   |
+| 🚫 Overfit     | 512       | 512    | 3      | 8      | 0.32     | 1.37       |
 This medium-sized model, with 128, 256, 2 layers, and 3 epochs, had the best balance between learning and generalization.
 
 Outcome
