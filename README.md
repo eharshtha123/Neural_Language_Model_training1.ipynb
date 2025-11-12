@@ -32,4 +32,4 @@ This medium-sized model, with 128, 256, 2 layers, and 3 epochs, had the best bal
 - Successfully trained an LSTM language model from scratch.
 - Exhibited underfitting, overfitting, and optimal fitting behavior.
 - Models were evaluated using the metrics of validation loss and perplexity.
-### Developed in Google Colab using PyTorch 2.8.0
+##### Developed in Google Colab using PyTorch 2.8.0
